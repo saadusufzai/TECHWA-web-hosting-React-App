@@ -20,7 +20,7 @@ function SvgProgrammingAnimate(props) {
         className="programming-animate_svg__animable"
         style={{
           transformOrigin: "249.86px 362.36px",
-          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideUp",
+          animation: "1s 1  cubic-bezier(.36,-.01,.5,1.38) slideUp",
           animationDelay: "0s",
         }}
       >

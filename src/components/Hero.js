@@ -4,6 +4,8 @@ import {  Typography, Button } from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 import Header from './Header'
 import classes from '../css/Hero.module.css'
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -19,7 +21,9 @@ const Hero = ({ darkMode,setDarkMode}) => {
     return (
        <div className= {classes.root}>
            <Header setDarkMode={setDarkMode} darkMode={darkMode}/>
+          
             <div className={classes.hero}>
+            <Fade left>
                 <div>
                     <Typography variant='h2' className={classes.heading} >Looking for a perfect website for you startup</Typography>
                     <Typography variant='h5' className={classes.subheading} >You are at the right place</Typography>
@@ -28,11 +32,13 @@ const Hero = ({ darkMode,setDarkMode}) => {
                     <Button variant="outlined"  color='secondary' >Contact Us</Button>
                     
                 </div>    
+              </Fade>  
+              
                 <div>
-                <SvgProgrammingAnimate  style={{fontSize:'300px'}} />
+              <Zoom> <SvgProgrammingAnimate  style={{fontSize:'300px'}} /></Zoom> 
                 </div>    
             </div>
-
+            
        </div>
     )
 }
