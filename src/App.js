@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Plans from "./components/Plans";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Testimonials from "./components/Testimonials";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -29,6 +30,7 @@ function App() {
 
       <Plans />
       <Contact />
+      <Testimonials/>
       <Footer />
     </ThemeProvider>
   );
