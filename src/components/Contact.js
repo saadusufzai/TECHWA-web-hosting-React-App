@@ -3,6 +3,9 @@ import classes from "../css/Contact.module.css";
 import { Typography } from "@material-ui/core";
 import { motion } from "framer-motion";
 
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
+
 import saad from "../images/3.JPG";
 const Contact = () => {
   const variants = {
@@ -10,7 +13,7 @@ const Contact = () => {
     visible: { opacity: 1, transition: { duration: 2 } },
   };
   return (
-    <div className={classes.contactBox}>
+  <Fade down>  <div className={classes.contactBox}>
       <div className={classes.boxes}>
         <div className={classes.box}>
           <div className={classes.image}>
@@ -36,7 +39,7 @@ const Contact = () => {
           <Typography variant=""> Front-End Developer </Typography>
         </div>
       </div>
-    </div>
+    </div></Fade>
   );
 };
 
