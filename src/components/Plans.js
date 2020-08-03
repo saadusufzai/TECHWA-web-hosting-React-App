@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "../css/Plans.module.css";
 import Svg2 from '../svgr/2'
-import { Paper, Card, Button, Typography, Link } from "@material-ui/core";
+import {  Typography } from "@material-ui/core";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 const Plans = () => {

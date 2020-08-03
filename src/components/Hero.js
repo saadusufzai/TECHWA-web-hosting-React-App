@@ -1,22 +1,14 @@
 import React from 'react'
 import SvgProgrammingAnimate  from '../svgr/ProgrammingAnimate' 
 import {  Typography, Button } from '@material-ui/core'
-import {makeStyles} from '@material-ui/core/styles'
 import Header from './Header'
 import classes from '../css/Hero.module.css'
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+
 
 const Hero = ({ darkMode,setDarkMode}) => {
-   const styles= useStyles()
 
     return (
        <div className= {classes.root}>

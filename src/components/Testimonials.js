@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import { Card, Typography } from '@material-ui/core'
+import { Typography } from '@material-ui/core'
 import {motion} from 'framer-motion'
 
 const Testimonials = () => {
