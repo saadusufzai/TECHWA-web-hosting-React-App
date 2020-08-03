@@ -147,12 +147,19 @@ li i{
 .menu{
   list-style: none;
   display: flex;
+  margin-right: 20px;
 
 }
 .menu li{
   cursor: pointer;
   margin-left:50px;
   font-weight: 600;
+  
+}
+
+.menu a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu li:hover{
