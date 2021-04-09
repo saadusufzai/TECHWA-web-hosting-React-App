@@ -1,11 +1,5 @@
 #  How to apply Dark Mode (WAAPI) and other React Animation Libraries  
 
-## Deployed on Surge integrated with CI/CD
-## link
-http://bawdy-kettle.surge.sh/
-
-        link might take sometime to load ...
-
 ## Tools and Libraries Used
     react 
     material-ui
@@ -13,3 +7,13 @@ http://bawdy-kettle.surge.sh/
     framer-motion
     fontawesome icons
     dark mode by Material UI
+    
+## Deployed on Surge and Netlify integrated with CI/CD
+## links
+
+### Surge
+[Surge Link](https://saadaslam-demo.netlify.app/)
+       this link might take sometime to load  ill recomend the link below ...
+### Netlify
+[CLICK HERE](https://saadaslam-demo.netlify.app/)
+
