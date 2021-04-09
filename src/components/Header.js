@@ -26,7 +26,7 @@ const Header = ({ darkMode,setDarkMode}) => {
       <AppBar  position="fixed">
         <Toolbar>
           <Typography color='inherit' variant="h6" className={classes.title}>
-            TECHWA
+            The StartUP
           </Typography>
           <ul className='menu'>
             <li><a href='./'>HOME</a></li>

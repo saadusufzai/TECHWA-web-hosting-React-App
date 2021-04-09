@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="copyright">
           Copyright 2020 techwa.io | All rights are reserved by TECHWA.IO |
-          Developed by Saad Aslam
+          Developed by <a href="http://github.com/saadusufzai" target="_blank" style={{color: '#fff', marginLeft: '5px'}} > Saad Aslam</a> 
         </div>
       </footer>
     </div>
