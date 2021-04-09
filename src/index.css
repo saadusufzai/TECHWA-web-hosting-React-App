@@ -41,6 +41,10 @@ footer{
   cursor: pointer;
 }
 
+.inner-footer ul li:hover{
+  color: #fff;
+}
+
 li i{
   color: #ffffff;
   padding-right: 10px;
