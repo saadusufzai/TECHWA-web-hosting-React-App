@@ -14,9 +14,6 @@
 ### Surge
 [Surge Link](https://saadaslam-demo.netlify.app/)
        this link might take sometime to load  ill recomend the link below ...
-### Netlify link
-
-
-
+### Netlify
 [CLICK HERE](https://saadaslam-demo.netlify.app/)
 
